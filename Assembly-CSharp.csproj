@@ -61,11 +61,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\PlayerMovement.cs" />
-    <Compile Include="Assets\Starter Assets\TutorialInfo\Scripts\Readme.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Assets\Starter Assets\Sample\Environment\Shaders\Built-in_RP\Triplanar.shader" />
-    <None Include="Assets\Starter Assets\Sample\Environment\Shaders\Built-in_RP\ArmatureShader.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -1032,16 +1027,16 @@
       <HintPath>Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.2D.Tilemap.Extras">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Core.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.2D.Tilemap.Extras">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
@@ -1134,18 +1129,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="URPWizard.csproj">
-      <Project>{64EF5BC9-7834-9EB3-0360-999E680EEA0C}</Project>
-      <Name>URPWizard</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.StarterAssets.Editor.csproj">
-      <Project>{B80DB7F7-8F7E-719E-C67D-E283BE6C37A9}</Project>
-      <Name>Unity.StarterAssets.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.StarterAssets.csproj">
-      <Project>{32F35FA7-CDB6-62A7-8069-CCEF69CD0399}</Project>
-      <Name>Unity.StarterAssets</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
