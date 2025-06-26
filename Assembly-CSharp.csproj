@@ -61,6 +61,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\PlayerMovement.cs" />
+    <Compile Include="Assets\Zipline.cs" />
+    <Compile Include="Assets\MovingPlatform.cs" />
+    <Compile Include="Assets\Spring.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
