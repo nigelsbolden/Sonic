@@ -83,6 +83,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\Character\CharacterSwitcher.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
+    <Compile Include="Assets\Scripts\UI\PauseManager.cs" />
     <Compile Include="Assets\Scripts\Enviornment\Zipline.cs" />
     <Compile Include="Assets\Scripts\Enviornment\FlightCannon.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
@@ -117,6 +118,7 @@
     <Compile Include="Assets\Scripts\Enviornment\SpeedPad.cs" />
     <Compile Include="Assets\Scripts\Character\PlayerMovement.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
+    <Compile Include="Assets\Scripts\UI\Game Manager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
